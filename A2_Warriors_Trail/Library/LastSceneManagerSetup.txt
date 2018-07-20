@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/WT_A2_v1.unity
-  isLoaded: 1
-  isActive: 1
