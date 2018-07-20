@@ -23,15 +23,22 @@ public class GameManager : MonoBehaviour
     public int score = 0;
     public int lives;
     public float timer = 120;
+
+    public Difficulty difficulty;
+    public Gamestate gameState;
         
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
+        difficulty = Difficulty.MEDIUM;
+        gameState = Gamestate.TITLE;
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update ()
+    {
 		
 	}
 }

@@ -8,7 +8,8 @@ public class Unit : MonoBehaviour
     public float attackPower = 10;
     public float weight = 1;
     public float speed = 3;
-    public float unitName;
+    public string enemyName;
+
 
 
 	// Use this for initialization
