@@ -5,7 +5,7 @@ using System;
 
 public class Player : MonoBehaviour
 {
-    Animator animator;//You may not need an animator, but if so declare it here   
+  /*  Animator animator;//You may not need an animator, but if so declare it here   
 
     int noOfClicks; //Determines Which Animation Will Play
     bool canClick; //Locks ability to click during animation event
@@ -72,7 +72,7 @@ public class Player : MonoBehaviour
         }
     }
 
-
+*/
 
 
 }

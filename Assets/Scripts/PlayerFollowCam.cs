@@ -65,4 +65,5 @@ public class PlayerFollowCam : MonoBehaviour {
             character.rotation = Quaternion.Slerp(character.rotation, turnAngle, Time.deltaTime * rotationSpeed);
         }
     }
+    
 }

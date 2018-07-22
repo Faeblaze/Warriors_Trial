@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Animator : MonoBehaviour
 {
-    internal object GetCurrentAnimatorStateInfo(int v)
+    /*internal object GetCurrentAnimatorStateInfo(int v)
     {
         throw new NotImplementedException();
     }
@@ -14,5 +14,6 @@ public class Animator : MonoBehaviour
     {
         throw new NotImplementedException();
     }
+    */
 }
 
