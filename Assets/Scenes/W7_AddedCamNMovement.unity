@@ -311,23 +311,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98e105a39cc37404cb5392bc19d050be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!143 &1602197325
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1602197321}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1606394730
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,13 +500,13 @@ MonoBehaviour:
   playerCam: {fileID: 1815097431}
   character: {fileID: 1602197323}
   centerpoint: {fileID: 351915712}
-  mouseSensitivity: 10
-  mouseYPosition: 2
-  moveSpeed: 2
-  zoomSpeed: 2
+  mouseSensitivity: 20
+  mouseYPosition: 2.5
+  moveSpeed: 5
+  zoomSpeed: 5
   zoomMin: -2
   zoomMax: -10
-  rotationSpeed: 5
+  rotationSpeed: 15
 --- !u!1 &1954349498
 GameObject:
   m_ObjectHideFlags: 0

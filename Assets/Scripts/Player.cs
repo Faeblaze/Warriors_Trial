@@ -64,7 +64,7 @@ public class Player : MonoBehaviour
             animator.SetInteger("slash1 1", 3);
             canClick = true;
         }
-        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("2HAttack"))
+        else if (animator.GetCurrentAnimatorStateInfo(0).IsName("2HAttack3"))
         { //Since this is the third and last animation, return to idle          
             animator.SetInteger("slash1 1", 4);
             canClick = true;
