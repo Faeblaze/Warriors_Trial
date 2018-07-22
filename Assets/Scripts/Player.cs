@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public float moveSpeed = 10f;
+    /*public float moveSpeed = 10f;
     public float turnSpeed = 50f;
 
 
@@ -28,7 +28,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
             transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
-    }
+    }*/
 
     
 
