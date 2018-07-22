@@ -1,27 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Animator : MonoBehaviour
 {
-    Animator animator;
-    Rigidbody rigidBody;
-
-    int noOfClicks;
-    bool cancanClick;
-
-
-
-	// Use this for initialization
-	void Start ()
+    internal object GetCurrentAnimatorStateInfo(int v)
     {
-        animator = GetComponent<Animator>();
-        rigidBody = GetComponent<Rigidbody>();
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        throw new NotImplementedException();
+    }
+
+    internal void SetInteger(string v1, int v2)
+    {
+        throw new NotImplementedException();
+    }
 }
+
