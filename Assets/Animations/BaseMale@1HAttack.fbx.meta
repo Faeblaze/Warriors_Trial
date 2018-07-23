@@ -169,7 +169,7 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events:
-      - time: 0.75629455
+      - time: 0.77191955
         functionName: ComboCheck
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 98e105a39cc37404cb5392bc19d050be,
@@ -177,8 +177,8 @@ ModelImporter:
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
-      - time: 0.75629455
-        functionName: comboCheck
+      - time: 0
+        functionName: ComboCheck
         data: 
         objectReferenceParameter: {fileID: 11500000, guid: 98e105a39cc37404cb5392bc19d050be,
           type: 3}
